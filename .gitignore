@@ -1,8 +1,9 @@
 
 # Ignore some folders
 log/
-condor/log/
 kraken/log/
+condor/log/
+condor/sweep/log
 
 # Ignore specific file formats
 *.log
