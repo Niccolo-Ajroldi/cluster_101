@@ -1,0 +1,30 @@
+000 (14741726.000.000) 2024-02-09 18:40:19 Job submitted from host: <10.15.2.1:9618?PrivAddr=%3c172.22.0.101:9618%3fsock%3dschedd_41397_7a2b%3e&PrivNet=internal.cluster.is.localnet&addrs=10.15.2.1-9618&alias=sched.cluster.is.localnet&noUDP&sock=schedd_41397_7a2b>
+...
+001 (14741726.000.000) 2024-02-09 18:40:57 Job executing on host: <172.22.2.119:9618?addrs=172.22.2.119-9618&alias=g119.internal.cluster.is.localnet&noUDP&sock=startd_5215_a27c>
+...
+006 (14741726.000.000) 2024-02-09 18:41:06 Image size of job updated: 465328
+	455  -  MemoryUsage of job (MB)
+	465328  -  ResidentSetSize of job (KB)
+...
+006 (14741726.000.000) 2024-02-09 18:41:14 Image size of job updated: 8419168
+	455  -  MemoryUsage of job (MB)
+	465560  -  ResidentSetSize of job (KB)
+...
+005 (14741726.000.000) 2024-02-09 18:41:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.18        1         1 
+	   Disk (KB)            :     1           1   2892100 
+	   Gpus (Average)       :                 2         2 "GPU-b73d719f,GPU-d2188b42"
+	   Memory (MB)          :   455        1024      1024 
+
+	Job terminated of its own accord at 2024-02-09T17:41:14Z with exit-code 0.
+...

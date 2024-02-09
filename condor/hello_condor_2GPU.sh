@@ -8,7 +8,7 @@ conda activate alpe
 
 # Env vars
 export HOME=/home/najroldi
+export CUDA_VISIBLE_DEVICES=0,1
 
 # Execute pyton script
-python -m torch.distributed.launch --nproc_per_node=2 $HOME/prove/hello_world.py 
-# try with torchrun
+torchrun --standalone --nproc_per_node=2 $HOME/prove/hello_torch.py 
