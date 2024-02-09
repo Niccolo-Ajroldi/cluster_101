@@ -1,0 +1,25 @@
+001 (14741647.000.000) 2024-02-09 16:18:58 Job executing on host: <172.22.2.160:9618?addrs=172.22.2.160-9618&alias=g160.internal.cluster.is.localnet&noUDP&sock=startd_60905_57b5>
+...
+python: can't open file '~/prove/hello_world.py': [Errno 2] No such file or directory
+006 (14741647.000.000) 2024-02-09 16:19:00 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (14741647.000.000) 2024-02-09 16:19:01 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :        2  1048576   2892100 
+	   Gpus (Average)       :                 0         0 
+	   Memory (MB)          :        0    16384     16384 
+
+	Job terminated of its own accord at 2024-02-09T15:19:00Z with exit-code 2.
+...

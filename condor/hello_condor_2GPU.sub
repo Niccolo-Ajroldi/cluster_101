@@ -1,0 +1,9 @@
+executable = /home/najroldi/prove/condor/hello_condor_2GPU.sh
+arguments = -alht
+error = log/job.$(Cluster).$(Process).err
+output = log/job.$(Cluster).$(Process).out
+log = log/job.$(Cluster).$(Process).log
+request_memory = 1024
+request_cpus = 1
+request_gpus = 2
+queue
