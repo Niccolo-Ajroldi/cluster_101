@@ -11,4 +11,4 @@ export HOME=/home/najroldi
 export CUDA_VISIBLE_DEVICES=0,1
 
 # Execute pyton script
-torchrun --standalone --nproc_per_node=2 $HOME/prove/hello_torch.py 
+torchrun --nproc_per_node=2 $HOME/prove/hello_torch.py 

@@ -1,0 +1,10 @@
+
+# Ignore some folders
+log/
+condor/log/
+kraken/log/
+
+# Ignore specific file formats
+*.log
+*.err
+*.out
