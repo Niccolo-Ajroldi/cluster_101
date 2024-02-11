@@ -1,0 +1,9 @@
+executable = /home/najroldi/prove/condor/env_tries/hello_condor.sh
+error = log/job.$(Cluster).$(Process).err
+output = log/job.$(Cluster).$(Process).out
+log = log/job.$(Cluster).$(Process).log
+#request_memory = 1024
+request_cpus = 1
+request_gpus = 0
+environment = "PATH=/home/najroldi/miniconda3/bin/conda:$PATH"
+queue
