@@ -4,5 +4,5 @@ output = log/job.$(Cluster).$(Process).out
 log = log/job.$(Cluster).$(Process).log
 request_memory = 1024
 request_cpus = 1
-request_gpus = 1
+request_gpus = 0
 queue

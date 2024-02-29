@@ -8,7 +8,9 @@ conda activate alpe
 
 # Env vars
 export HOME=/home/najroldi
-export CUDA_VISIBLE_DEVICES=0,1
+export CUDA_VISIBLE_DEVICES=0
+
+nvidia-smi
 
 # Execute pyton script
-torchrun --nproc_per_node=2 $HOME/prove/hello_torch.py 
+torchrun --nproc_per_node=1 $HOME/prove/hello_torch.py 
