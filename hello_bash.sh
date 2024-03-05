@@ -4,4 +4,4 @@
 source activate alpe
 
 # Execute python script
-python /home/najroldi/prove/hello_world.py
+python /home/najroldi/prove/hello_torch.py
