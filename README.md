@@ -25,6 +25,12 @@ condor_submit_bid 25 condor_sweep.sh
 
 
 # SLURM
+Get infos about cluster nodes:
+```
+sinfo -o "%20N %10c %10m %20f %20G %10P"
+sinfo -o "%20N %10c %10m %20f %20G %10P" | sort | uniq -c
+```
+
 ### Interactive job
 ```
 srun --partition=gpu --gres=gpu:1 --time=00:15:00 --cpus-per-task=4 --pty bash
@@ -39,7 +45,7 @@ sbatch hello_slurm.sh
 ```
 sbatch slurm_sweep.sh
 ```
-[A good example]([https://research.cs.wisc.edu/htcondor/tutorials/intl-grid-school-3/submit_first.html](https://rcpedia.stanford.edu/topicGuides/jobArrayPythonExample.html)https://rcpedia.stanford.edu/topicGuides/jobArrayPythonExample.html)
+[A good example](https://rcpedia.stanford.edu/topicGuides/jobArrayPythonExample.html)
 
 # TODO:
 - add a small training example
