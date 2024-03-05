@@ -1,8 +1,0 @@
-executable = /bin/ls
-arguments = -alht
-error = log/test.err
-output = log/test.out
-log = log/test.log
-request_memory = 1024
-request_cpus = 1
-queue
