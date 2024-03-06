@@ -24,4 +24,4 @@ n_jobs=$SLURM_ARRAY_TASK_MAX
 export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 
 # Run executable via srun
-srun ~/cluster_101/slurm/run.sh $job_index
+srun ~/cluster_101/slurm/run_sweep.sh $job_index

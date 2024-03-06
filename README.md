@@ -1,8 +1,9 @@
 
+# cluster_101
 Some minimal examples on how to use SLURM-based computing cluster and CONDOR-based computing clusers.
 
 
-# CONDOR
+## CONDOR
 To find out which Machines have GPUs installed you can run:
 ```
 condor_status -constraint 'PartitionableSlot && TotalGpus > 0' -af:h Machine TotalGPUs TotalCpus CUDADeviceName TotalMemory CUDAGlobalMemoryMb CUDACapability
@@ -27,7 +28,7 @@ condor_submit_bid 25 condor_sweep.sh
 [A good example](https://research.cs.wisc.edu/htcondor/tutorials/intl-grid-school-3/submit_first.html)
 
 
-# SLURM
+## SLURM
 Get infos about cluster nodes:
 ```
 sinfo -o "%20N %10c %10m %20f %20G %10P"
