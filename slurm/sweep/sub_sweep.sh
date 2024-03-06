@@ -8,8 +8,8 @@
 #SBATCH --array=1-2
 
 ## Different log name: %A_%a instead of %j
-#SBATCH --error=~/cluster_101/slurm/log/%x_%A_%a.err
-#SBATCH --output=~/cluster_101/slurm/log/%x_%A_%a.err
+#SBATCH --error=/u/najroldi/cluster_101/slurm/sweep/log/%x_%A_%a.err
+#SBATCH --output=/u/najroldi/cluster_101/slurm/sweep/log/%x_%A_%a.err
 
 ## Each job will run 1 task
 #SBATCH --ntasks 1
