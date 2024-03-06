@@ -4,8 +4,11 @@ log/
 kraken/log/
 condor/log/
 condor/sweep/log
+slurm/log/
+slurm/sweep/log/
 
 # Ignore specific file formats
 *.log
 *.err
 *.out
+*__pycache__

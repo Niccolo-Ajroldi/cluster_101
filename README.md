@@ -49,5 +49,7 @@ sbatch slurm_sweep.sh
 
 # TODO:
 - add a small training example
-- add SLURM
+- add SLURM :white_check_mark:
 - lighter conda env
+- conda sourcing
+- better path def/expansion
