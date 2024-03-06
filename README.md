@@ -1,4 +1,7 @@
 
+Some minimal examples on how to use SLURM-based computing cluster and CONDOR-based computing clusers.
+
+
 # CONDOR
 To find out which Machines have GPUs installed you can run:
 ```
