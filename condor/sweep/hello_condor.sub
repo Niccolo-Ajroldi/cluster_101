@@ -1,9 +1,0 @@
-executable = /home/najroldi/prove/condor/sweep/hello_condor.sh
-arguments = $(Process)
-error = log/job.$(Cluster).$(Process).err
-output = log/job.$(Cluster).$(Process).out
-log = log/job.$(Cluster).$(Process).log
-request_memory = 256
-request_cpus = 4
-#request_gpus = 0
-queue 4

@@ -1,0 +1,20 @@
+# Executable
+executable = /home/najroldi/cluster_101/condor/sweep/sweep.sh
+
+# Pass arguments to the executable
+# $(Process) ranges from 0 to N-1
+# Note that in SLURM jobs range from 1 to N instead!
+arguments = $(Process)
+
+# Logs
+error = log/job.$(Cluster).$(Process).err
+output = log/job.$(Cluster).$(Process).out
+log = log/job.$(Cluster).$(Process).log
+
+# Compute requests
+request_memory = 256
+request_cpus = 4
+#request_gpus = 0
+
+# Submit 4 jobs
+queue 4

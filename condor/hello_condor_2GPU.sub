@@ -1,11 +1,16 @@
-# number of GPUs
-N_GPU = 4
+# Executable
+executable = /home/najroldi/cluster_101/condor/hello_condor_2GPU.sh
 
-executable = /home/najroldi/prove/condor/hello_condor_2GPU.sh
+# Logs
 error = log/job.$(Cluster).$(Process).err
 output = log/job.$(Cluster).$(Process).out
 log = log/job.$(Cluster).$(Process).log
+
+# Compute requests
+N_GPU = 2
 request_memory = 1024
-request_cpus = 1
+request_cpus = 4
 request_gpus = $(N_GPU)
+
+# Submit 1 job
 queue

@@ -3,11 +3,11 @@
 # add conda TODO: make it more portable!
 source ~/miniconda3/etc/profile.d/conda.sh
 
-# Activate conda environment TODO: should I use source activate alpe instead?
+# Activate conda environment
 conda activate alpe
 
 # Env vars
-export HOME=/home/najroldi
+export MY_DIR=/home/najroldi/cluster_101
 
-# Execute pyton script
-python "$HOME/prove/hello_torch.py"
+# Execute python script
+python "$MY_DIR/hello_torch.py"

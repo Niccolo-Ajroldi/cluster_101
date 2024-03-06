@@ -50,3 +50,4 @@ sbatch slurm_sweep.sh
 # TODO:
 - add a small training example
 - add SLURM
+- lighter conda env

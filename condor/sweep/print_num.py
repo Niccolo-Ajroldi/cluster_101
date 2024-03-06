@@ -10,7 +10,7 @@ def main():
     number = sys.argv[1]
 
     # Print the number
-    print("Number:", number)
+    print("Argument: ", number)
 
 if __name__ == "__main__":
     main()

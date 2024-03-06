@@ -13,6 +13,4 @@ def print_cuda_info():
     
 if __name__ == "__main__":
     # Print CUDA information
-    print("=================")
     print_cuda_info()
-    print("=================")
