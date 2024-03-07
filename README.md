@@ -1,6 +1,6 @@
 
 # cluster_101
-Some minimal examples on how to use SLURM-based computing cluster and CONDOR-based computing clusers.
+Some minimal examples on how to use SLURM-based CONDOR-based computing clusters.
 
 
 ## CONDOR
