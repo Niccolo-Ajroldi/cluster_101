@@ -25,7 +25,8 @@ condor_submit_bid 25 hello_condor.sub
 ```
 condor_submit_bid 25 condor_sweep.sh
 ```
-[A good example](https://research.cs.wisc.edu/htcondor/tutorials/intl-grid-school-3/submit_first.html)
+[A good example]([https://research.cs.wisc.edu/htcondor/tutorials/intl-grid-school-3/submit_first.html](https://services.ncl.ac.uk/media/sites/servicesites/itserviceold/communicationcollaborationandresearch/condor/Worked_Condor_Example_Simple_C_Add.pdf))
+[Another example](https://research.cs.wisc.edu/htcondor/tutorials/intl-grid-school-3/submit_first.html)
 
 
 ## SLURM
